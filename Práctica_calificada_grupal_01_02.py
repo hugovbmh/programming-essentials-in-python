@@ -1,0 +1,9 @@
+#Ingresar 5 números en una lista y mostrar el mayor número
+lista = []
+print("Ingrese 5 numeros: ")
+for i in range(0, 5):
+    x = int(input("Ingrese numero: "))
+    lista.append(x)
+lista.sort()
+print("El mayor numero es: ")
+print(lista[-1])

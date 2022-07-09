@@ -1,0 +1,7 @@
+nombre = str(input("Ingrese nombre: "))
+apellido1 = str(input("Ingrese primer apellido: "))
+apellido2 = str(input("Ingrese segundo apellido: "))
+sexo = str(input("Ingrese sexo (F o M) "))
+print("Nombre:",nombre.capitalize(),apellido1.capitalize(),apellido2.capitalize())
+print("Sexo:",sexo.upper())
+print("Generar codigo: "+nombre[0].upper()+apellido1[0].upper()+apellido2[0].upper()+"-"+sexo)

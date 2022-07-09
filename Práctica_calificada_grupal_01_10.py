@@ -1,0 +1,9 @@
+#Genere 20 números aleatorios menores a 100 y mostrar el segundo número mayor
+import random
+lista = []
+for x in range(20):
+    ran = random.randint(0,99)
+    lista.append(ran)
+lista.sort()
+print("La lista es: ",lista)
+print("El segundo numero mayor es: ",lista[-2])
